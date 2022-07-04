@@ -21,11 +21,18 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 75px;
 }
 
-.parent_section {
+.first_parent_section {
     background-repeat: no-repeat;
     background-image: url(images/top-banner.png);
+}
+
+.second_parent_section {
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
 
 .first_section {
@@ -42,4 +49,33 @@ section {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.second_section {
+    width: 40%;
+    padding: 10px 20px 75px 30px;
+    box-shadow: 10px 10px 40px black;
+    margin-left: 50px;
+
+}
+
+.second_section h1 {
+    font-size: 40px;
+}
+
+.jfy {
+    text-align: justify;
+}
+
+#baby {
+    border-left: 5px solid blue;
+}
+
+#pro {
+    border-left: 5px solid red;
+}
+
+.third_parent_section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
